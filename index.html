@@ -6,13 +6,10 @@
     <script src="preview/js/jquery-3.2.1.min.js"></script>
     <script src="source/bgscroll.js"></script>
     <script type="text/javascript">
-    $(document).ready(scrollit);
-    $(window).on('load',scrollit)
-    $(window).scroll(scrollit)
-    function scrollit(){
+    $(window).scroll(function(){
       $('.background1').bgscroll({direction: 'bottom'});
       $('.background2').bgscroll({direction: 'top'});
-    }
+    })
     </script>
     <style media="screen">
       body{
