@@ -1,5 +1,5 @@
 (function($){
-  $.fn.bgscroll = function( options ) {
+  $.fn.bgscroll=function(options){
     var x=$.extend({bgpositionx:50,direction:"bottom",debug:!1,min:0,max:100},options);
     var a=$(document).height()-$(window).height(),b=a-(this.offset().top+this.height());
     this.offset().top<a&&(b=0);
