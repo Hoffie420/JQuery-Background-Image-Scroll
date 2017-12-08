@@ -44,8 +44,8 @@ And add JQuery's `$(window).scroll()` event in `<head>`  and `<script>` section.
 
 That's all!
 
-#Options
+# Options
 You can define some options and change its default to your custom:
 - `bgpositionx`  [INT between `0` and `100`] X position of the background image measured in %. The value 50 is 50% (center of the image) **Default: `50`**
-- `direction` [STRING `'top'` or `'bottom'`] The direction of scrolled image, `top` means: when the page is scrolled down, the background image is scrolled to top, `bottom` means: when the page is scrolled down, the background image is scrolled also to down.
-- `debug` [BOOLEAN `true` or `false`] Output of current's image position in the browser console.
+- `direction` [STRING `'top'` or `'bottom'`] The direction of scrolled image, `top` means: when the page is scrolled down, the background image is scrolled to top, `bottom` means: when the page is scrolled down, the background image is scrolled also to down. **Default : `'top'`**
+- `debug` [BOOLEAN `true` or `false`] Output of current's image position in the browser console. **Default : `false`**
