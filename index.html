@@ -2,9 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>TEST</title>
+    <title>JQuery Background Image Scroll</title>
+    <script src="preview/js/jquery-3.2.1.min.js"></script>
+    <script src="source/bgscroll.js"></script>
+    <script type="text/javascript">
+    $(document).ready(scrollit);
+    $(window).on('load',scrollit)
+    $(window).scroll(scrollit)
+    function scrollit(){
+      $('.background1').bgscroll({direction: 'bottom'});
+      $('.background2').bgscroll({direction: 'top'});
+    }
+    </script>
+    <style media="screen">
+      body{
+        margin: 0;
+      }
+      .background1{
+        width: 100vw;
+        height: 70vh;
+        background-image: url('preview/img/background1.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+      }
+      .background2{
+        width: 100vw;
+        height: 70vh;
+        background-image: url('preview/img/background2.png');
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+      }
+      .a{
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
-    TEST
+    <div class="background1"></div>
+    <div class="a"></div>
+    <div class="background2"></div>
+    <div class="a"></div>
   </body>
 </html>
