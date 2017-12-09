@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>JQuery Background Image Scroll</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="preview/js/jquery-3.2.1.min.js"></script>
     <script src="source/bgscroll.js"></script>
     <script type="text/javascript">
@@ -14,6 +15,7 @@
     <style media="screen">
       body{
         margin: 0;
+        font-family: 'Lato', sans-serif;
       }
       .background1{
         width: 100vw;
@@ -21,6 +23,16 @@
         background-image: url('preview/img/background1.jpg');
         background-repeat: no-repeat;
         background-position: 50% 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
+      }
+      .background1 p, .background2 p{
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 8vw;
       }
       .background2{
         width: 100vw;
@@ -28,16 +40,30 @@
         background-image: url('preview/img/background2.png');
         background-repeat: no-repeat;
         background-position: 50% 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFF;
       }
       .a{
         height: 500px;
       }
+      .g{
+        margin-bottom: 100px;
+        text-align: center;
+        font-size: 10vw;
+      }
+      a{
+        color: #C0A000;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
-    <div class="background1"></div>
+    <div class="background1"><p>Beautiful and responsive</p></div>
     <div class="a"></div>
-    <div class="background2"></div>
+    <div class="background2"><p>Very simple</p></div>
     <div class="a"></div>
+    <div class="g">Check it out on <a href="https://github.com/HoffiPL/JQuery-Background-Image-Scroll">Github</a></div>
   </body>
 </html>
