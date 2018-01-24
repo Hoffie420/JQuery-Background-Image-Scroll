@@ -12,7 +12,7 @@ To start using **JQuery Background Image Scroll** you just need to add `bgscroll
 ```
 Now let's create `<div>` element with some `background-image` css property.
 
-```
+```html
 <head>
   <style>
     .background{
@@ -34,7 +34,7 @@ Now let's create `<div>` element with some `background-image` css property.
 
 And add JQuery's `$(window).scroll()` event in `<head>`  and `<script>` section.
 
-```
+```html
   <script>
     $(window).scroll(function(){
       $('.background').bgscroll();
