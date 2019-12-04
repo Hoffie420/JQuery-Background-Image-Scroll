@@ -3,7 +3,7 @@ A very simple, short, beautiful, and responsive JQuery plugin to scroll backgrou
 ![show1](https://media.giphy.com/media/3o6fJ4fwX10mFhW3Xa/giphy.gif)
 ![show2](https://media.giphy.com/media/3oxHQkdp87LNZfRM3u/giphy.gif)
 
-**[Live Demo](https://hoffffi.github.io/JQuery-Background-Image-Scroll/)**
+**[Live Demo](https://hoffie420.github.io/JQuery-Background-Image-Scroll/)**
 
 # Get started
 To start using **JQuery Background Image Scroll** you just need to add `bgscroll.js` to your page in the `<head>` section just after JQuery.
